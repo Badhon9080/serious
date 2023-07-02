@@ -1,0 +1,2025 @@
+/*xs*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+    /*Nav Section CSS Start*/
+    #nav {
+        background-color: #02918c;
+        position: sticky;
+        top: 0;
+        z-index: 99;
+    }
+#main_menu ul li a {
+    text-align: center;
+    font-size: 9px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all linear 0.5s;
+    font-weight: 800;
+    padding: 8px;
+}
+#main_menu ul li:hover a {
+    color: #cfc91d;
+}
+/*//Nav Section CSS End */ 
+/*Banner Section CSS Start */
+#banner {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    height: 385px;
+}
+#banner::before {
+   position: absolute;
+   background-color: rgba(68, 84, 82, 0.60);
+   inset: 0;
+   content: '';
+   z-index: -1;
+}
+.banner_content {
+    margin-top: 89px;
+}
+.banner_content_lorem_heading h3 {
+    font-size: 13px;
+    font-weight: 800;
+    color: #fff;
+}
+
+
+
+.banner_content_incidunt_heading {
+    margin-top: 13px;
+}
+.banner_content_incidunt_heading h1 {
+    font-size: 20px;
+letter-spacing: 7px;
+font-weight: 800;
+text-transform: uppercase;
+color: #fff;
+}
+.banner_content_orem_paragraph {
+    margin-top: 19px;
+}
+.banner_content_orem_paragraph p {
+    font-size: 9px;
+    font-weight: 800;
+    color: #fff;
+}
+.banner_content_divident_img {
+    margin-top: 21px
+}
+.banner_content_divident_img img{
+    width: 56px;
+}
+.banner_content_knowmore_link {
+    margin-top: 19px;
+}
+.banner_content_knowmore_link a {
+    color: #0b1016;
+    font-size: 9px;
+    font-weight: 800;
+    background-color: #9fc91d;
+    transition: all linear 0.5s;
+    padding: 11px 9px;
+}
+.banner_content_knowmore_link:hover a{
+    border-radius: 13px;
+}
+/*//Banner Section CSS End */
+/*About Section CSS Start */
+#about {
+    padding-top: 22px;
+}
+.about_content_heading h2 {
+    color: #02918b;
+    font-size: 24px;
+    font-weight: 800;
+}
+.about_content_sign {
+    margin-top: 13px;
+}
+.about_content_sign p{
+    color: #7e8287;
+    font-size: 8px;
+}
+
+
+
+.about_content_paragraph {
+    margin-top: 9px;
+}
+.about_content_paragraph P {
+    width: 281px;
+    line-height: 19px;
+    color: #7e8287;
+    margin: auto;
+    font-size: 9px;
+}
+.about_content_paragraph span {
+    font-size: 16px;
+    font-weight: 800;
+}
+.about_section_parts {
+    margin-top: 2px;
+   text-align: center;
+}
+.about_monitor_section{
+    margin: auto;
+    height: auto;
+}
+.about_bulb_section {
+    height: auto;
+    margin: auto;
+    border-right: 1px solid transparent;
+}
+.about_pen_section {
+    height: auto;
+    margin: auto;
+    border-right: 1px solid transparent;
+}
+.about_setting_section {
+    margin: auto;
+    height: auto;
+    border-right: 1px solid transparent;
+}
+.about_section_img {
+    margin-top: 22px;
+}
+.about_section_heading {
+    margin-top: 9px;
+}
+.about_section_heading h4 {
+    color: #7e8287;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 800;
+}
+.about_section_paragraph {
+    margin-top: 7px;
+/*margin-left: 76px;*/
+}
+.about_section_paragraph p {
+    color: #7e8287;
+    font-size: 11px;
+    margin: auto;
+    width: 166px;
+}
+
+/*//About Section CSS End */
+/*Service Section CSS Start */
+#service {
+    background: #f0f0e8;
+    background-size: cover;
+    background-position: center;
+    margin-top: 29px;
+    height: auto;
+}
+.service_content {
+    padding-top: 29px;
+}
+.service_content_heading h2 {
+    color: #02918b;
+    font-size: 24px;
+    font-weight: 800;
+}
+.service_content_sign {
+    margin-top: 9px;
+}
+
+.service_content_sign p {
+    color: #7e8287;
+    font-size: 8px;
+}
+.service_content_paragraph {
+    margin-top: 9px;
+}
+.service_content_paragraph p {
+    line-height: 22px;
+    color: #7e8287;
+   font-size: 9px;
+   width: 305px;
+}
+.service_section_parts {
+    margin-top: 22px;
+    padding-bottom: 19px;
+}
+.service_sections_heading {
+    margin-top: 11px;
+}
+.service_sections_heading h4 {
+    color: #7e8287;
+    font-size: 14px;
+    font-weight: 800;
+}
+.service_section_paragraph {
+    margin-top: 13px;
+}
+.service_section_paragraph p {
+    color: #7e8287;
+    font-size: 11px;
+    width: 166px;
+}
+.service_world_section{
+    margin-top: 20px;
+}
+.service_zoom_section{
+    margin-top: 20px;
+}
+.service_watch_section {
+    margin-top: 20px;
+}
+.service_eco_section {
+    margin-top: 20px;
+}
+/*// Service Section CSS End */
+/*Mywork Section CSS Start */
+#mywork{
+    padding-top: 22px;
+}
+.mywork_content_heading h2 {
+    color: #02918b;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.mywork_content_sign {
+    margin-top: 13px;
+}
+.mywork_content_sign p {
+    color: #7e8287;
+    font-size: 8px;
+}
+.mywork_content_paragraph {
+    margin-top: 13px;
+   /* margin-left: 300px;*/
+}
+
+.mywork_content_paragraph p {
+    color: #7e8287;
+    margin: auto;
+    font-size: 9px;
+    line-height: 19px;
+    width: 280px
+}
+.mywork_sections_parts {
+    margin-top: 32px;
+}
+.mywork_section_two{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_one{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_three{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_four{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_six{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_five{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_seven{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_eight{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_img {
+    position: relative;
+}
+.mywork_section_overlay {
+    inset: 24px;
+    position: absolute;
+    background-color: rgba(38, 151, 140, 0.66);
+    visibility: hidden;
+    transition: all linear 0.5s;
+    opacity: 0;
+}
+.mywork_section_img:hover .mywork_section_overlay {
+    visibility: visible;
+    opacity: 1;
+}
+.mywork_section_heading {
+    margin-top: 32px;
+}
+.mywork_section_heading h4 {
+    margin: auto;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 800;
+}
+.mywork_section_paragraph {
+    margin-top: 12px;
+   /* margin-left: 75px;*/
+}
+.mywork_section_paragraph  P {
+    margin: auto;
+    font-size: 11px;
+    color: #fff;
+    width: 166px;
+}
+/*//Mywork Section CSS End */
+/*Contact Section CSS Start*/
+#contact {
+    padding-top: 22px;
+}
+
+.contact_sections_form {
+    height: auto;
+    background-color: #0a0a0b;
+    padding-bottom: 5px;
+    margin-top: 37px;
+}
+.contact_form {
+    margin-top: 32px;
+}
+.contact_name_form input {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+    font-size: 9px;
+   color: #767a7f;
+   width: 268px;
+  padding-bottom: 9px;
+}
+.contact_name_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form {
+    margin-top: 22px;
+}
+.contact_email_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form input {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+    font-size: 9px;
+   color: #767a7f;
+   width: 268px;
+  padding-bottom: 9px;
+}
+.contact_message_form {
+    margin-top: 25px;
+}
+.contact_message_form textarea {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+    padding-bottom: 16px;
+    font-size: 9px;
+    color: #767a7f;
+    width: 300px;
+}
+.contact_message_form textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+.submit_button {
+    margin-top: 18px;
+    
+}
+.submit_button button { color: #0b1016;
+    background-color: #cfc91d;
+    border: none;
+    font-size: 7px;
+    font-weight: 800;
+    padding: 7px 9px;
+}
+/*//Contact Section CSS End */
+/*Last Section CSS Start */
+#last_section {
+    background-color: #000;
+    height: 33px;
+ }
+ .last_section_content {
+     margin-top: 9px;
+ }
+ .last_section_content p {
+     font-size: 9px;
+     color: #767a7f;
+ }
+ /*//Last Section CSS End */
+/* Back To Top Button Section Css Start */
+#backToTop{
+    background: #fff;
+width: 29px;
+height: 29px;
+text-align: center;
+border: 3px groove #02918b;
+line-height: 7px;
+border-radius: 50%;
+/*font-size: 20px;*/
+cursor: pointer;
+position: fixed;
+right: 5px;
+bottom: 500px;
+z-index: 9999;
+opacity: 0;
+transition: all linear .4s;
+  }
+  #backToTop i{
+    font-size: 11px;
+    color: #cfc91d;
+   padding-top: 5px;
+ }
+  #backToTop:hover{
+    background-color: #02918b;
+    border: none;
+  }
+  /* //Back To Top Button Section Css End */
+}
+
+
+/*sm*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+        /*Nav Section CSS Start*/
+        #nav {
+            background-color: #02918c;
+            position: sticky;
+            top: 0;
+            z-index: 99;
+        }
+#main_menu ul li a {
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all linear 0.5s;
+    font-weight: 800;
+    padding: 13px;
+}
+#main_menu ul li:hover a {
+    color: #cfc91d;
+}
+/*//Nav Section CSS End */ 
+/*Banner Section CSS Start */
+#banner {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    height: 385px;
+}
+#banner::before {
+   position: absolute;
+   background-color: rgba(68, 84, 82, 0.60);
+   inset: 0;
+   content: '';
+   z-index: -1;
+}
+.banner_content {
+    margin-top: 89px;
+}
+.banner_content_lorem_heading h3 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff;
+}
+
+
+
+.banner_content_incidunt_heading {
+    margin-top: 13px;
+}
+.banner_content_incidunt_heading h1 {
+    font-size: 28px;
+    letter-spacing: 9px;
+font-weight: 800;
+text-transform: uppercase;
+color: #fff;
+}
+.banner_content_orem_paragraph {
+    margin-top: 19px;
+}
+.banner_content_orem_paragraph p {
+    font-size: 11px;
+font-weight: 800;
+color: #fff;
+}
+.banner_content_divident_img {
+    margin-top: 11px;
+}
+.banner_content_divident_img img{
+    width: 68px;
+}
+.banner_content_knowmore_link {
+    margin-top: 19px;
+}
+.banner_content_knowmore_link a {
+    color: #0b1016;
+    font-size: 11px;
+    font-weight: 800;
+    background-color: #9fc91d;
+    transition: all linear 0.5s;
+    padding: 13px 15px;
+}
+.banner_content_knowmore_link:hover a{
+    border-radius: 13px;
+}
+/*//Banner Section CSS End */
+/*About Section CSS Start */
+#about {
+    padding-top: 22px;
+}
+.about_content_heading h2 {
+    color: #02918b;
+    font-size: 28px;
+    font-weight: 800;
+}
+.about_content_sign {
+    margin-top: 13px;
+}
+.about_content_sign p{
+    color: #7e8287;
+    font-size: 11px;
+}
+
+
+
+.about_content_paragraph {
+    margin-top: 9px;
+}
+.about_content_paragraph P {
+    width: 452px;
+    line-height: 19px;
+    color: #7e8287;
+    margin: auto;
+    font-size: 11px;
+}
+.about_content_paragraph span {
+    font-size: 18px;
+    font-weight: 800;
+}
+.about_section_parts {
+    margin-top: 22px;
+   text-align: center;
+}
+.about_monitor_section{
+    margin: auto;
+    height: auto;
+}
+.about_bulb_section {
+    height: auto;
+    margin: auto;
+    border-right: 1px solid transparent;
+}
+.about_pen_section {
+    height: auto;
+    margin: auto;
+    border-right: 1px solid transparent;
+}
+.about_setting_section {
+    margin: auto;
+    height: auto;
+    border-right: 1px solid transparent;
+}
+.about_section_img {
+    margin-top: 22px;
+}
+.about_section_heading {
+    margin-top: 9px;
+}
+.about_section_heading h4 {
+    color: #7e8287;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 800;
+}
+.about_section_paragraph {
+    margin-top: 7px;
+/*margin-left: 76px;*/
+}
+.about_section_paragraph p {
+    color: #7e8287;
+    font-size: 11px;
+    margin: auto;
+    width: 166px;
+}
+
+/*//About Section CSS End */
+/*Service Section CSS Start */
+#service {
+    background: #f0f0e8;
+    background-size: cover;
+    background-position: center;
+    margin-top: 29px;
+    height: auto;
+}
+.service_content {
+    padding-top: 42px;
+}
+.service_content_heading h2 {
+    color: #02918b;
+    font-size: 28px;
+    font-weight: 800;
+}
+.service_content_sign {
+    margin-top: 9px;
+}
+
+.service_content_sign p {
+    color: #7e8287;
+    font-size: 11px;
+}
+.service_content_paragraph {
+    margin-top: 9px;
+}
+.service_content_paragraph p {
+    line-height: 22px;
+    color: #7e8287;
+    font-size: 11px;
+    width: 347px;
+}
+.service_section_parts {
+    margin-top: 22px;
+}
+.service_sections_heading {
+    margin-top: 11px;
+}
+.service_sections_heading h4 {
+    color: #7e8287;
+    font-size: 14px;
+    font-weight: 800;
+}
+.service_section_paragraph {
+    margin-top: 13px;
+}
+.service_section_paragraph p {
+    color: #7e8287;
+    font-size: 11px;
+    width: 166px;
+}
+.service_world_section{
+    margin-top: 20px;
+}
+.service_zoom_section{
+    margin-top: 20px;
+}
+.service_watch_section {
+    margin-top: 20px;
+}
+.service_eco_section {
+    margin-top: 20px;
+}
+/*// Service Section CSS End */
+/*Mywork Section CSS Start */
+#mywork{
+    padding-top: 22px;
+}
+.mywork_content_heading h2 {
+    color: #02918b;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.mywork_content_sign {
+    margin-top: 13px;
+}
+.mywork_content_sign p {
+    color: #7e8287;
+    font-size: 11px;
+}
+.mywork_content_paragraph {
+    margin-top: 13px;
+   /* margin-left: 300px;*/
+}
+
+.mywork_content_paragraph p {
+    color: #7e8287;
+    margin: auto;
+    font-size: 11px;
+    line-height: 19px;
+    width: 399px;
+}
+.mywork_sections_parts {
+    margin-top: 32px;
+}
+.mywork_section_two{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_one{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_three{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_four{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_six{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_five{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_seven{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_eight{
+    height: 100%;
+    width: 100%;
+}
+.mywork_section_img {
+    position: relative;
+}
+.mywork_section_overlay {
+    inset: 132px;
+    position: absolute;
+    background-color: rgba(38, 151, 140, 0.66);
+    visibility: hidden;
+    transition: all linear 0.5s;
+    opacity: 0;
+}
+.mywork_section_img:hover .mywork_section_overlay {
+    visibility: visible;
+    opacity: 1;
+}
+.mywork_section_heading {
+    margin-top: 32px;
+}
+.mywork_section_heading h4 {
+    margin: auto;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 800;
+}
+.mywork_section_paragraph {
+    margin-top: 12px;
+   /* margin-left: 75px;*/
+}
+.mywork_section_paragraph  P {
+    margin: auto;
+    font-size: 11px;
+    color: #fff;
+    width: 166px;
+}
+/*//Mywork Section CSS End */
+/*Contact Section CSS Start*/
+#contact {
+    padding-top: 22px;
+}
+
+.contact_sections_form {
+    height: auto;
+    background-color: #0a0a0b;
+    margin-top: 37px;
+    padding-bottom: 8px;
+}
+.contact_form {
+    margin-top: 32px;
+}
+.contact_name_form input {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+font-size: 11px;
+color: #767a7f;
+width: 409px;
+padding-bottom: 17px;
+}
+.contact_name_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form {
+    margin-top: 22px;
+}
+.contact_email_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form input {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+font-size: 11px;
+color: #767a7f;
+width: 409px;
+padding-bottom: 17px;
+}
+.contact_message_form {
+    margin-top: 32px;
+}
+.contact_message_form textarea {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+padding-bottom: 16px;
+font-size: 11px;
+color: #767a7f;
+width: 503px;
+}
+.contact_message_form textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+.submit_button {
+    margin-top: 25px;
+    
+}
+.submit_button button { color: #0b1016;
+    background-color: #cfc91d;
+    border: none;
+    font-size: 9px;
+    font-weight: 800;
+    padding: 9px 11px;
+}
+/*//Contact Section CSS End */
+/*Last Section CSS Start */
+#last_section {
+    background-color: #000;
+    height: 33px;
+ }
+ .last_section_content {
+     margin-top: 9px;
+ }
+ .last_section_content p {
+     font-size: 11px;
+     color: #767a7f;
+ }
+ /*//Last Section CSS End */
+
+
+ /* Back To Top Button Section Css Start */
+#backToTop{
+    background: #fff;
+    width: 39px;
+    height: 39px;
+    text-align: center;
+    border: 3px groove #02918b;
+    line-height: 7px;
+    border-radius: 50%;
+   /* font-size: 20px;*/
+    cursor: pointer;
+    position: fixed;
+    right: 5px;
+    bottom: 500px;
+    z-index: 9999;
+    opacity: 0;
+    transition: all linear .4s;
+}
+  #backToTop i{
+    font-size: 13px;
+    color: #cfc91d;
+   padding-top: 5px;
+ }
+  #backToTop:hover{
+    background-color: #02918b;
+    border: none;
+  }
+  /* //Back To Top Button Section Css End */
+}
+
+/* md */
+@media (min-width: 768px) and (max-width: 991.98px) {
+            /*Nav Section CSS Start*/
+            #nav {
+                background-color: #02918c;
+                position: sticky;
+                top: 0;
+                z-index: 99;
+            }
+#main_menu ul li a {
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all linear 0.5s;
+    font-weight: 800;
+    padding: 13px;
+}
+#main_menu ul li:hover a {
+    color: #cfc91d;
+}
+/*//Nav Section CSS End */ 
+/*Banner Section CSS Start */
+#banner {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    height: 453px;
+}
+#banner::before {
+   position: absolute;
+   background-color: rgba(68, 84, 82, 0.60);
+   inset: 0;
+   content: '';
+   z-index: -1;
+}
+.banner_content {
+    margin-top: 89px;
+}
+.banner_content_lorem_heading h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+}
+
+
+
+.banner_content_incidunt_heading {
+    margin-top: 13px;
+}
+.banner_content_incidunt_heading h1 {
+    font-size: 32px;
+    letter-spacing: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+}
+.banner_content_orem_paragraph {
+    margin-top: 19px;
+}
+.banner_content_orem_paragraph p {
+    font-size: 13px;
+    font-weight: 800;
+    color: #fff;
+}
+.banner_content_divident_img {
+    margin-top: 27px;
+}
+.banner_content_divident_img img{
+    width: 68px;
+}
+.banner_content_knowmore_link {
+    margin-top: 36px;
+}
+.banner_content_knowmore_link a {
+    color: #0b1016;
+    font-size: 11px;
+    font-weight: 800;
+    background-color: #9fc91d;
+    transition: all linear 0.5s;
+    padding: 13px 15px;
+}
+.banner_content_knowmore_link:hover a{
+    border-radius: 13px;
+}
+
+/*//Banner Section CSS End */
+/*About Section CSS Start */
+#about {
+    padding-top: 22px;
+}
+.about_content_heading h2 {
+    color: #02918b;
+    font-size: 32px;
+    font-weight: 800;
+}
+.about_content_sign {
+    margin-top: 13px;
+}
+.about_content_sign p{
+    color: #7e8287;
+    font-size: 11px;
+}
+
+
+
+.about_content_paragraph {
+    margin-top: 9px;
+}
+.about_content_paragraph P {
+    width: 692px;
+    line-height: 25px;
+    color: #7e8287;
+    margin: auto;
+    font-size: 13px;
+}
+.about_content_paragraph span {
+    font-size: 20px;
+    font-weight: 800;
+}
+.about_section_parts {
+    margin-top: 22px;
+   text-align: center;
+}
+.about_monitor_section{
+    height: 192px;
+    margin: auto;
+}
+.about_bulb_section {
+    height: 192px;
+    margin: auto;
+    border-right: 1px solid #eee;
+}
+.about_pen_section {
+    height: 192px;
+    margin: auto;
+    border-right: 1px solid #eee;
+}
+.about_setting_section {
+    height: 192px;
+    margin: auto;
+    border-right: 1px solid #eee;
+}
+.about_section_img {
+    margin-top: 22px;
+}
+.about_section_heading {
+    margin-top: 9px;
+}
+.about_section_heading h4 {
+    color: #7e8287;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 800;
+}
+.about_section_paragraph {
+    margin-top: 7px;
+/*margin-left: 76px;*/
+}
+.about_section_paragraph p {
+    color: #7e8287;
+    font-size: 11px;
+    margin: auto;
+    width: 166px;
+}
+
+/*//About Section CSS End */
+/*Service Section CSS Start */
+#service {
+    background: #f0f0e8;
+    background-size: cover;
+    background-position: center;
+    margin-top: 29px;
+    height: auto;
+}
+.service_content {
+    padding-top: 42px;
+}
+.service_content_heading h2 {
+    color: #02918b;
+    font-size: 32px;
+    font-weight: 800;
+}
+.service_content_sign {
+    margin-top: 9px;
+}
+
+.service_content_sign p {
+    color: #7e8287;
+    font-size: 13px;
+}
+.service_content_paragraph {
+    margin-top: 9px;
+}
+
+
+
+.service_content_paragraph p {
+    line-height: 22px;
+   color: #7e8287;
+   width: 427px;
+  font-size: 13px;
+}
+.service_section_parts {
+    margin-top: 22px;
+}
+.service_sections_heading {
+    margin-top: 11px;
+}
+.service_sections_heading h4 {
+    color: #7e8287;
+    font-size: 14px;
+    font-weight: 800;
+}
+.service_section_paragraph {
+    margin-top: 13px;
+}
+.service_section_paragraph p {
+    color: #7e8287;
+    font-size: 11px;
+    width: 166px;
+}
+.service_world_section{
+    margin-top: 20px;
+}
+.service_zoom_section{
+    margin-top: 20px;
+}
+.service_watch_section {
+    margin-top: 20px;
+}
+.service_eco_section {
+    margin-top: 20px;
+}
+/*// Service Section CSS End */
+/*Mywork Section CSS Start */
+#mywork{
+    padding-top: 22px;
+}
+.mywork_content_heading h2 {
+    color: #02918b;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.mywork_content_sign {
+    margin-top: 13px;
+}
+.mywork_content_sign p {
+    color: #7e8287;
+    font-size: 13px;
+}
+.mywork_content_paragraph {
+    margin-top: 13px;
+   /* margin-left: 300px;*/
+}
+
+.mywork_content_paragraph p {
+    color: #7e8287;
+    margin: auto;
+    font-size: 13px;
+    line-height: 19px;
+    width: 399px;
+}
+.mywork_sections_parts {
+    margin-top: 32px;
+}
+/*
+.mywork_section_two{
+    height: 100%;
+    width: 50%;
+}
+.mywork_section_one{
+    height: 100%;
+    width: 50%;
+}
+.mywork_section_three{
+    height: 100%;
+    width: 50%;
+}
+.mywork_section_four{
+    height: 100%;
+    width: 50%;
+}
+.mywork_section_six{
+    height: 100%;
+    width: 50%;
+}
+.mywork_section_five{
+    height: 100%;
+    width: 50%;
+}
+.mywork_section_seven{
+    height: 100%;
+    width: 50%;
+}
+.mywork_section_eight{
+    height: 100%;
+    width: 50%;
+}*/
+.mywork_section_img {
+    position: relative;
+}
+.mywork_section_overlay {
+    inset: 42px;
+    position: absolute;
+    background-color: rgba(38, 151, 140, 0.66);
+    visibility: hidden;
+    transition: all linear 0.5s;
+    opacity: 0;
+}
+.mywork_section_img:hover .mywork_section_overlay {
+    visibility: visible;
+    opacity: 1;
+}
+.mywork_section_heading {
+    margin-top: 32px;
+}
+.mywork_section_heading h4 {
+    margin: auto;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 800;
+}
+.mywork_section_paragraph {
+    margin-top: 12px;
+   /* margin-left: 75px;*/
+}
+.mywork_section_paragraph  P {
+    margin: auto;
+    font-size: 11px;
+    color: #fff;
+    width: 166px;
+}
+/*//Mywork Section CSS End */
+/*Contact Section CSS Start*/
+#contact {
+    padding-top: 22px;
+}
+
+.contact_sections_form {
+    height: auto;
+    background-color: #0a0a0b;
+    margin-top: 37px;
+    padding-bottom: 9px;
+}
+.contact_form {
+    margin-top: 32px;
+}
+.contact_name_form input {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+   font-size: 13px;
+   color: #767a7f;
+   width: 550px;
+  padding-bottom: 17px;
+}
+.contact_name_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form {
+    margin-top: 22px;
+}
+.contact_email_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form input {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+   font-size: 13px;
+   color: #767a7f;
+   width: 550px;
+  padding-bottom: 17px;
+}
+.contact_message_form {
+    margin-top: 52px;
+}
+.contact_message_form textarea {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+    padding-bottom: 16px;
+    font-size: 13px;
+    color: #767a7f;
+    width: 677px;
+}
+.contact_message_form textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+.submit_button {
+    margin-top: 42px;
+    
+}
+.submit_button button { color: #0b1016;
+    background-color: #cfc91d;
+    border: none;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 11px 13px;
+}
+/*//Contact Section CSS End */
+/*Last Section CSS Start */
+#last_section {
+    background-color: #000;
+    height: 33px;
+ }
+ .last_section_content {
+     margin-top: 9px;
+ }
+ .last_section_content p {
+     font-size: 12px;
+     color: #767a7f;
+ }
+ /*//Last Section CSS End */
+  /* Back To Top Button Section Css Start */
+#backToTop{
+    background: #fff;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    border: 3px groove #02918b;
+    line-height: 13px;
+    border-radius: 50%;
+    /*font-size: 20px;*/
+    cursor: pointer;
+    position: fixed;
+    right: 5px;
+    bottom: 500px;
+    z-index: 9999;
+    opacity: 0;
+    transition: all linear .4s;
+}
+  #backToTop i{
+    font-size: 15px;
+color: #cfc91d;
+padding-top: 5px;
+ }
+  #backToTop:hover{
+    background-color: #02918b;
+    border: none;
+  }
+  /* //Back To Top Button Section Css End */
+}
+
+/*lg*/
+
+@media (min-width: 992px) and (max-width:1199.98px) {
+    /*Nav Section CSS Start*/
+    #nav {
+        background-color: #02918c;
+        position: sticky;
+        top: 0;
+        z-index: 99;
+    }
+#main_menu ul li a {
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all linear 0.5s;
+    font-weight: 800;
+    padding: 16px;
+}
+#main_menu ul li:hover a {
+    color: #cfc91d;
+}
+/*//Nav Section CSS End */ 
+/*Banner Section CSS Start */
+#banner {height: 602px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+#banner::before {
+   position: absolute;
+   background-color: rgba(68, 84, 82, 0.60);
+   inset: 0;
+   content: '';
+   z-index: -1;
+}
+.banner_content {
+    margin-top: 142px;
+}
+.banner_content_lorem_heading h3 {
+    font-size: 25px;
+    font-weight: 800;
+    color: #fff;
+}
+
+
+
+.banner_content_incidunt_heading {
+    margin-top: 13px;
+}
+.banner_content_incidunt_heading h1 {
+    font-size: 42px;
+    letter-spacing: 17px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+}
+.banner_content_orem_paragraph {
+    margin-top: 19px;
+}
+.banner_content_orem_paragraph p {
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+}
+.banner_content_divident_img {
+    margin-top: 42px;
+}
+.banner_content_divident_img img{
+    width: 81px;
+}
+.banner_content_knowmore_link {
+    margin-top: 36px;
+}
+.banner_content_knowmore_link a {
+    color: #0b1016;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: #9fc91d;
+    transition: all linear 0.5s;
+    padding: 15px 19px;
+}
+.banner_content_knowmore_link:hover a{
+    border-radius: 13px;
+}
+/*//Banner Section CSS End */
+/*About Section CSS Start */
+#about {
+    padding-top: 52px;
+}
+.about_content_heading h2 {
+    color: #02918b;
+    font-size: 46px;
+    font-weight: 800;
+}
+.about_content_sign {
+    margin-top: 19px;
+}
+.about_content_sign p{
+    color: #7e8287;
+}
+
+
+
+.about_content_paragraph {
+    margin-top: 19px;
+}
+.about_content_paragraph P {
+    color: #7e8287;
+    margin: auto;
+    font-size: 16px;
+    line-height: 34px;
+    width: 867px;
+}
+.about_content_paragraph span {
+    font-size: 23px;
+    font-weight: 800;
+}
+.about_section_parts {
+    margin-top: 52px;
+   /* margin-left: 19px;*/
+}
+.about_bulb_section {
+    height: 212px;
+    border-right: 1px solid #eee;
+}
+.about_pen_section {
+    height: 212px;
+    border-right: 1px solid #eee;
+}
+.about_setting_section {
+    height: 212px;
+    border-right: 1px solid #eee;
+}
+.about_section_img {
+    margin-top: 42px;
+}
+.about_section_heading {
+    margin-top: 17px;
+}
+.about_section_heading h4 {
+    color: #7e8287;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 800;
+}
+.about_section_paragraph {
+    margin-top: 17px;
+/*margin-left: 76px;*/
+}
+.about_section_paragraph p {
+    color: #7e8287;
+    font-size: 11px;
+    margin: auto;
+    width: 166px;
+}
+/*//About Section CSS End */
+
+
+
+
+/*Service Section CSS Start */
+#service {
+    background-image: url(../img/SERVICE-TYPING.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 89px;
+    height: 615px;
+}
+.service_content {
+    padding-top: 49px;
+}
+.service_content_heading h2 {
+    color: #02918b;
+    font-size: 46px;
+    font-weight: 800;
+}
+.service_content_sign {
+    margin-top: 19px;
+}
+
+.service_content_sign p {
+    color: #7e8287;
+}
+.service_content_paragraph {
+    margin-top: 19px;
+}
+.service_content_paragraph p {
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 30px;
+    width: 517px;
+}
+.service_section_parts {
+    margin-top: 42px;
+}
+.service_sections_heading {
+    margin-top: 19px;
+}
+.service_sections_heading h4 {
+    color: #7e8287;
+    font-size: 14px;
+    font-weight: 800;
+}
+.service_section_paragraph {
+    margin-top: 19px;
+}
+.service_section_paragraph p {
+    color: #7e8287;
+    font-size: 11px;
+    width: 166px;
+}
+
+.service_watch_section {
+    margin-top: 53px;
+}
+.service_eco_section {
+    
+    margin-top: 53px;
+}
+/*// Service Section CSS End */
+
+
+/*Mywork Section CSS Start */
+#mywork{
+    padding-top: 52px;
+}
+.mywork_content_heading h2 {
+    color: #02918b;
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.mywork_content_sign {
+    margin-top: 19px;
+}
+.mywork_content_sign p {
+    color: #7e8287;
+}
+.mywork_content_paragraph {
+    margin-top: 19px;
+   /* margin-left: 300px;*/
+}
+
+.mywork_content_paragraph p {Line-Height: 30px;
+    color: #7e8287;
+    margin: auto;
+    font-size: 16px;
+    width: 644px;
+}
+.mywork_sections_parts {
+    margin-top: 67px;
+}
+.mywork_section_img {
+    position: relative;
+}
+.mywork_section_overlay {
+    inset: 18px;
+    position: absolute;
+    background-color: rgba(38, 151, 140, 0.66);
+    visibility: hidden;
+    transition: all linear 0.5s;
+    opacity: 0;
+}
+.mywork_section_img:hover .mywork_section_overlay {
+    visibility: visible;
+    opacity: 1;
+}
+.mywork_section_heading {
+    margin-top: 32px;
+}
+.mywork_section_heading h4 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 800;
+}
+.mywork_section_paragraph {
+    margin-top: 12px;
+   /* margin-left: 75px;*/
+}
+.mywork_section_paragraph  P {
+    margin: auto;
+    font-size: 11px;
+    color: #fff;
+    width: 166px;
+}
+/*//Mywork Section CSS End */
+/*Contact Section CSS Start*/
+#contact {
+    padding-top: 52px;
+}
+
+.contact_sections_form {
+    background-color: #0a0a0b;
+    margin-top: 67px;
+    height: 650px;
+}
+.contact_form {
+    margin-top: 78px;
+}
+.contact_name_form input {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+    font-size: 16px;
+   color: #767a7f;
+   width: 668px;
+   /*padding-left: 303px;*/
+  padding-bottom: 30px;
+}
+.contact_name_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form {
+    margin-top: 42px;
+}
+.contact_email_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form input {
+    /*padding-left: 270px;*/
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: #767a7f;
+   width: 668px;
+}
+.contact_message_form {
+    margin-top: 42px;
+}
+.contact_message_form textarea {
+   text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: #767a7f;
+   width: 818px;
+}
+.contact_message_form textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+.submit_button {
+    margin-top: 56px;
+    
+}
+.submit_button button { color: #0b1016;
+    background-color: #cfc91d;
+    border: none;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 13px 17px;
+}
+/*//Contact Section CSS End */
+/*Last Section CSS Start */
+#last_section {
+    background-color: #000;
+    height: 33px;
+ }
+ .last_section_content {
+     margin-top: 9px;
+ }
+ .last_section_content p {
+     font-size: 12px;
+     color: #767a7f;
+ }
+ /*//Last Section CSS End */
+ /* Back To Top Button Section Css Start */
+#backToTop{
+    background: #fff;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border: 3px groove #02918b;
+    line-height: 45px;
+    border-radius: 50%;
+    /*font-size: 20px;*/
+    cursor: pointer;
+    position: fixed;
+    right: 11px;
+    bottom: 500px;
+    z-index: 9999;
+    opacity: 0;
+    transition: all linear .4s;
+  }
+  #backToTop i{
+    font-size: 25px;
+    color: #cfc91d;
+   padding-top: 5px;
+ }
+  #backToTop:hover{
+    background-color: #02918b;
+    border: none;
+  }
+  /* //Back To Top Button Section Css End */
+}
+/*xl*/
+@media (min-width: 1200px) and (max-width:1399.98px){
+    /*Nav Section CSS Start*/
+    #nav {
+        background-color: #02918c;
+        position: sticky;
+        top: 0;
+        z-index: 99; 
+    }
+#main_menu ul li a {
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all linear 0.5s;
+    font-weight: 800;
+    padding: 16px;
+}
+#main_menu ul li:hover a {
+    color: #cfc91d;
+}
+/*//Nav Section CSS End */ 
+/*Banner Section CSS Start */
+#banner {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    height: 700px;
+}
+#banner::before {
+   position: absolute;
+   background-color: rgba(68, 84, 82, 0.60);
+   inset: 0;
+   content: '';
+   z-index: -1;
+}
+.banner_content {
+    margin-top: 132px;
+}
+.banner_content_lorem_heading h3 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+}
+
+
+
+.banner_content_incidunt_heading {
+    margin-top: 19px;
+}
+.banner_content_incidunt_heading h1 {
+    font-size: 68px;
+    letter-spacing: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+}
+.banner_content_orem_paragraph {
+    margin-top: 19px;
+}
+.banner_content_orem_paragraph p {
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+}
+.banner_content_divident_img {
+    margin-top: 52px;
+}
+.banner_content_knowmore_link {
+    margin-top: 53px;
+}
+.banner_content_knowmore_link a {
+    color: #0b1016;
+   font-size: 14px;
+   font-weight: 800;
+   background-color: #9fc91d;
+   transition: all linear 0.5s;
+   padding: 13px 19px;
+}
+.banner_content_knowmore_link:hover a{
+    border-radius: 13px;
+}
+/*//Banner Section CSS End */
+/*About Section CSS Start */
+#about {
+    padding-top: 52px;
+}
+.about_content_heading h2 {
+    color: #02918b;
+    font-size: 46px;
+    font-weight: 800;
+}
+.about_content_sign {
+    margin-top: 19px;
+}
+.about_content_sign p{
+    color: #7e8287;
+}
+
+
+
+.about_content_paragraph {
+    margin-top: 19px;
+}
+.about_content_paragraph P {
+    color: #7e8287;
+    margin: auto;
+    font-size: 16px;
+    line-height: 34px;
+    width: 867px;
+}
+.about_content_paragraph span {
+    font-size: 23px;
+    font-weight: 800;
+}
+.about_section_parts {
+    margin-top: 52px;
+   /* margin-left: 19px;*/
+}
+.about_bulb_section {
+    height: 212px;
+    border-right: 1px solid #eee;
+}
+.about_pen_section {
+    height: 212px;
+    border-right: 1px solid #eee;
+}
+.about_setting_section {
+    height: 212px;
+    border-right: 1px solid #eee;
+}
+.about_section_img {
+    margin-top: 42px;
+}
+.about_section_heading {
+    margin-top: 17px;
+}
+.about_section_heading h4 {
+    color: #7e8287;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 800;
+}
+.about_section_paragraph {
+    margin-top: 17px;
+/*margin-left: 76px;*/
+}
+.about_section_paragraph p {
+    color: #7e8287;
+    font-size: 11px;
+    margin: auto;
+    width: 166px;
+}
+/*//About Section CSS End */
+
+
+
+
+/*Service Section CSS Start */
+#service {
+    background-image: url(../img/SERVICE-TYPING.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 89px;
+    height: 615px;
+}
+.service_content {
+    padding-top: 49px;
+}
+.service_content_heading h2 {
+    color: #02918b;
+    font-size: 46px;
+    font-weight: 800;
+}
+.service_content_sign {
+    margin-top: 19px;
+}
+
+.service_content_sign p {
+    color: #7e8287;
+}
+.service_content_paragraph {
+    margin-top: 19px;
+}
+.service_content_paragraph p {
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 30px;
+    width: 517px;
+}
+.service_section_parts {
+    margin-top: 42px;
+}
+.service_sections_heading {
+    margin-top: 19px;
+}
+.service_sections_heading h4 {
+    color: #7e8287;
+    font-size: 14px;
+    font-weight: 800;
+}
+.service_section_paragraph {
+    margin-top: 19px;
+}
+.service_section_paragraph p {
+    color: #7e8287;
+    font-size: 11px;
+    width: 166px;
+}
+
+.service_watch_section {
+    margin-top: 53px;
+}
+.service_eco_section {
+    
+    margin-top: 53px;
+}
+/*// Service Section CSS End */
+/*Last Section CSS Start */
+#last_section {
+    background-color: #000;
+    height: 33px;
+ }
+ .last_section_content {
+     margin-top: 9px;
+ }
+ .last_section_content p {
+     font-size: 12px;
+     color: #767a7f;
+ }
+ /*//Last Section CSS End */
+  /* Back To Top Button Section Css Start */
+#backToTop{
+    background: #fff;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border: 3px groove #02918b;
+    line-height: 45px;
+    border-radius: 50%;
+    /*font-size: 20px;*/
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    bottom: 500px;
+    z-index: 9999;
+    opacity: 0;
+    transition: all linear .4s;
+  }
+  #backToTop i{
+    font-size: 25px;
+    color: #cfc91d;
+   padding-top: 5px;
+ }
+  #backToTop:hover{
+    background-color: #02918b;
+    border: none;
+  }
+  /* //Back To Top Button Section Css End */
+}
+
+/*xxl*/
+@media (min-width:1400px) {}
